@@ -155,3 +155,7 @@ if all_dataframes:
     print(master_df[['Title', 'Audiobooks', 'Gross Royalties ($)', 'Net Royalties ($)']].head(5))
 else:
     print("No data was extracted.")
+
+
+# The net royalty values are pulled directly from the reported figures in the source files.
+# Need to check if 25% needs to be applied on top of those net rolyalties.
